@@ -1,0 +1,65 @@
+/* Write your CSS code here */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+@media screen and (min-width: 768px) {
+  .home-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 40px;
+  }
+}
+.card-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .card-text-container {
+    align-items: flex-start;
+  }
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 21px;
+  color: #1e293b;
+  font-weight: 500;
+}
+.home-mobile-img {
+  width: 200px;
+}
+@media screen and (min-width: 768px) {
+  .home-mobile-img {
+    display: none;
+  }
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #475569;
+}
+.button-home {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 13px;
+  border: none;
+  background-color: #0b69ff;
+  height: 20px;
+  width: 30%;
+  cursor: pointer;
+  outline: none;
+}
+.home-img {
+  width: 50%;
+  max-width: 450px;
+  margin-left: 85px;
+}
